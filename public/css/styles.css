@@ -6,15 +6,12 @@
   border-style: inset;
   overflow: auto; }
 
-<<<<<<< HEAD
-=======
 .emphasis {
   color: #f6952d; }
 
 .upsize {
   font-size: 115%; }
 
->>>>>>> b25376ed4d4d1c8a3bf122d8f26d07b095371807
 .contact div {
   margin-top: 24px; }
 .contact label {
@@ -39,7 +36,6 @@
   background-repeat: no-repeat;
   background-size: cover; }
 
-<<<<<<< HEAD
 .header {
   height: 600px; }
 
@@ -54,7 +50,10 @@
   background-repeat: no-repeat;
   background-size: cover; }
 
-.parallax3 {
+.header2 {
+  height: 600px; }
+
+.parallax2 {
   /* The image used */
   background-image: url("/images/fruit_cake.jpg");
   /* Set a specific height */
@@ -65,9 +64,6 @@
   background-repeat: no-repeat;
   background-size: cover; }
 
-.header2 {
-  height: 600px; }
-=======
 .animate {
   margin-top: 50px; }
   .animate #moving-img {
@@ -83,6 +79,5 @@
     transform: translate3d(750px, -30px, 0); }
   100% {
     transform: translate3d(900px, 0, 0); } }
->>>>>>> b25376ed4d4d1c8a3bf122d8f26d07b095371807
 
 /*# sourceMappingURL=styles.css.map */
