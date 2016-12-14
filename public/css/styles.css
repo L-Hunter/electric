@@ -6,7 +6,33 @@
   border-style: inset;
   overflow: auto; }
 
+<<<<<<< HEAD
 .gallery-image {
   padding: 5px; }
+=======
+.contact div {
+  margin-top: 24px; }
+.contact .emphasis {
+  color: #FF7E00;
+  font-size: 16px; }
+.contact label {
+  width: 60px; }
+.contact input {
+  width: 240px; }
+.contact .submit-button:hover {
+  background-color: #FF7E00;
+  border-style: inset; }
+
+.parallax {
+  /* The image used */
+  background-image: url("/images/choco_cake.jpg");
+  /* Set a specific height */
+  height: 700px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+>>>>>>> c09b9558ca0c56e9f8b87e8f980be81b708ed7d0
 
 /*# sourceMappingURL=styles.css.map */
