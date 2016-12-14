@@ -1,21 +1,24 @@
 <h2>Contact Us!</h2>
 
-<p>Do you need a craveworthy cheesecake for your next event?</p>
-<p>Some delicious donuts... or magnificent macarons?</p>
-<p>A tantalizing tiramisu?</p>
-
-<p>Send us a sweet message in the contact form below.</p>
-<p>We'll get back to you within 24 hours!</p>
+<div>
+	<p>Do you need a craveworthy cheesecake for your next event?</p>
+	<p>Some delicious donuts... or magnificent macarons?</p>
+	<p>A tantalizing tiramisu?</p>
+</div>
+<div>
+	<p>Send us a sweet message in the contact form below.</p>
+	<p>We'll get back to you within 24 hours!</p>
+</div>
 
 <form method="POST" action="/send_and_thank">
 	<label for="name">Name: </label>
-	<input type="text" name="name"><br>
+	<input type="text" name="name" required><br>
 
 	<label for="email">Email: </label>
-	<input type="text" name="email"><br>
+	<input type="text" name="email" required><br>
 
 	<label for="message">Message: </label><br>
-	<textarea type="textarea" name="message" placeholder="Your message here!"></textarea>
+	<textarea class="textarea" name="message" placeholder="Your message here!" required></textarea><br>
 
 	<input type="submit">
 </form>
