@@ -1,15 +1,49 @@
-body {
-}
-
 .parallax {
     /* The image used */
     background-image: url("/images/choco_cake.jpg");
+
     /* Set a specific height */
-    height: 700px;
+    height: 500px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.header {
+  height: 600px;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("/images/sberries.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("/images/fruit_cake.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header2 {
+  height: 600px;
 }
