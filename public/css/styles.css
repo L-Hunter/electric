@@ -6,10 +6,6 @@
   border-style: inset;
   overflow: auto; }
 
-<<<<<<< HEAD
-.gallery-image {
-  padding: 5px; }
-=======
 .contact div {
   margin-top: 24px; }
 .contact .emphasis {
@@ -23,16 +19,46 @@
   background-color: #FF7E00;
   border-style: inset; }
 
+.gallery-image {
+  padding: 5px; }
+
 .parallax {
   /* The image used */
   background-image: url("/images/choco_cake.jpg");
   /* Set a specific height */
-  height: 700px;
+  height: 500px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
->>>>>>> c09b9558ca0c56e9f8b87e8f980be81b708ed7d0
+
+.header {
+  height: 600px; }
+
+.parallax2 {
+  /* The image used */
+  background-image: url("/images/sberries.jpg");
+  /* Set a specific height */
+  height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.parallax3 {
+  /* The image used */
+  background-image: url("/images/fruit_cake.jpg");
+  /* Set a specific height */
+  height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.header2 {
+  height: 600px; }
 
 /*# sourceMappingURL=styles.css.map */
