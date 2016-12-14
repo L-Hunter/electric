@@ -6,6 +6,10 @@
   border-style: inset;
   overflow: auto; }
 
+<<<<<<< HEAD
+.gallery-image {
+  padding: 5px; }
+=======
 .contact div {
   margin-top: 24px; }
 .contact .emphasis {
@@ -29,5 +33,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+>>>>>>> c09b9558ca0c56e9f8b87e8f980be81b708ed7d0
 
 /*# sourceMappingURL=styles.css.map */
