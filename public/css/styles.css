@@ -6,7 +6,6 @@
   border-style: inset;
   overflow: auto; }
 
-
 .emphasis {
   color: #f6952d; }
 
@@ -54,7 +53,10 @@
   background-repeat: no-repeat;
   background-size: cover; }
 
-.parallax3 {
+.header2 {
+  height: 600px; }
+
+.parallax2 {
   /* The image used */
   background-image: url("/images/fruit_cake.jpg");
   /* Set a specific height */
@@ -67,6 +69,7 @@
 
 .header2 {
   height: 600px; }
+
 
 .animate {
   margin-top: 50px; }
