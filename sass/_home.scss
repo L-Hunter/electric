@@ -1,3 +1,6 @@
+body {
+}
+
 .parallax {
     /* The image used */
     background-image: url("/images/choco_cake.jpg");
@@ -13,10 +16,10 @@
 }
 
 .header {
-  height: 600px;
+  height: 400px;
 }
 
-.parallax2 {
+.parallax1 {
     /* The image used */
     background-image: url("/images/sberries.jpg");
 
@@ -30,8 +33,8 @@
     background-size: cover;
 }
 
-.header2 {
-  height: 600px;
+.header1 {
+  height: 400px;
 }
 
 .parallax2 {
@@ -46,4 +49,26 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.header2 {
+  height: 400px;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("/images/galaxycake.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header3 {
+  height: 400px;
 }
