@@ -1,5 +1,5 @@
-gem 'sinatra'
-gem 'sendgrid-ruby'
+require 'sinatra'
+require 'sendgrid-ruby'
 
 get '/' do
 	erb :home
