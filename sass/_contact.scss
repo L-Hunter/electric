@@ -1,4 +1,4 @@
-$color-scheme-color: #FF7E00;
+$color-scheme-color: rgb(246, 149, 45);
 
 
 .textarea {
@@ -10,14 +10,17 @@ $color-scheme-color: #FF7E00;
 	overflow: auto;
 }
 
+.emphasis {
+	color: $color-scheme-color;
+}
+
+.upsize {
+	font-size: 115%;
+}
+
 .contact {
 	div {
 		margin-top: 24px;
-	}
-
-	.emphasis {
-		color: $color-scheme-color;
-		font-size: 16px;
 	}
 
 	label {
