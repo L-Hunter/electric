@@ -16,3 +16,10 @@ end
 get '/gallery' do
 	erb :gallery
 end
+
+post '/send_and_thank' do
+	@name = params[:name]
+	@email = params[:email]
+	@message = params[:message]
+	erb :thanks
+end
