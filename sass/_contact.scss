@@ -1,3 +1,6 @@
+$color-scheme-color: #FF7E00;
+
+
 .textarea {
 	display: block;
 	width: 500px;
@@ -5,4 +8,32 @@
 	resize: none;
 	border-style: inset;
 	overflow: auto;
+}
+
+.contact {
+	div {
+		margin-top: 24px;
+	}
+
+	.emphasis {
+		color: $color-scheme-color;
+		font-size: 16px;
+	}
+
+	label {
+		width: 60px;
+	}
+
+	input {
+		width: 240px;
+	}
+
+	.submit-button {
+
+		&:hover {
+			background-color: $color-scheme-color;
+			border-style: inset;
+
+		}
+	}
 }

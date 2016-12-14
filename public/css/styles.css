@@ -6,4 +6,17 @@
   border-style: inset;
   overflow: auto; }
 
+.contact div {
+  margin-top: 24px; }
+.contact .emphasis {
+  color: #FF7E00;
+  font-size: 16px; }
+.contact label {
+  width: 60px; }
+.contact input {
+  width: 240px; }
+.contact .submit-button:hover {
+  background-color: #FF7E00;
+  border-style: inset; }
+
 /*# sourceMappingURL=styles.css.map */
