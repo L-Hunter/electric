@@ -1,5 +1,11 @@
-body {
+.container-fluid {
+  display: block;
 }
+
+#brand {
+  color: rgb(0, 156, 255);
+}
+
 
 .parallax {
     /* The image used */
