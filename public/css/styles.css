@@ -32,8 +32,13 @@
 .gallery-image {
   padding: 5px; }
 
+<<<<<<< HEAD
 .container-fluid {
   display: block; }
+=======
+.wrapper {
+  margin-top: 60px; }
+>>>>>>> paul
 
 #brand {
   color: #009cff; }
