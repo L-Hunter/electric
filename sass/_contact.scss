@@ -1,5 +1,5 @@
-$color-scheme-color: rgb(246, 149, 45);
-
+$color-scheme-main-color: rgb(246, 149, 45);
+$color-scheme-secondary-color: rgb(253, 245, 207);
 
 .textarea {
 	display: block;
@@ -11,7 +11,7 @@ $color-scheme-color: rgb(246, 149, 45);
 }
 
 .emphasis {
-	color: $color-scheme-color;
+	color: $color-scheme-main-color;
 }
 
 .upsize {
@@ -29,12 +29,22 @@ $color-scheme-color: rgb(246, 149, 45);
 
 	input {
 		width: 240px;
+
+		&:focus {
+			background-color: rgb(253, 245, 207);
+		}
+	}
+	textarea {
+
+		&:focus {
+			background-color: rgb(253, 245, 207);
+		}
 	}
 
 	.submit-button {
 
 		&:hover {
-			background-color: $color-scheme-color;
+			background-color: $color-scheme-main-color;
 			border-style: inset;
 
 		}

@@ -6,7 +6,6 @@
   border-style: inset;
   overflow: auto; }
 
-
 .emphasis {
   color: #f6952d; }
 
@@ -19,6 +18,10 @@
   width: 60px; }
 .contact input {
   width: 240px; }
+  .contact input:focus {
+    background-color: #fdf5cf; }
+.contact textarea:focus {
+  background-color: #fdf5cf; }
 .contact .submit-button:hover {
   background-color: #f6952d;
   border-style: inset; }
@@ -83,6 +86,5 @@
     transform: translate3d(750px, -30px, 0); }
   100% {
     transform: translate3d(900px, 0, 0); } }
-
 
 /*# sourceMappingURL=styles.css.map */
