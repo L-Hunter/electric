@@ -28,8 +28,11 @@
 .gallery-image {
   padding: 5px; }
 
+.wrapper {
+  margin-top: 60px; }
+
 #brand {
-  color: #79c8fa; }
+  color: #009cff; }
 
 .parallax {
   /* The image used */
