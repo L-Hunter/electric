@@ -34,6 +34,9 @@
 #brand {
   color: #009cff; }
 
+.nav li {
+  margin-top: -1px; }
+
 .parallax {
   /* The image used */
   background-image: url("/images/choco_cake.jpg");
