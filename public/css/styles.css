@@ -41,6 +41,9 @@
 .nav li {
   margin-top: -1px; }
 
+.team-member img {
+  width: 20px; }
+
 .parallax {
   /* The image used */
   background-image: url("/images/choco_cake.jpg");
