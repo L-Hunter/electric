@@ -22,9 +22,13 @@
     background-color: #fdf5cf; }
 .contact textarea:focus {
   background-color: #fdf5cf; }
-.contact .submit-button:hover {
-  background-color: #f6952d;
-  border-style: inset; }
+.contact .submit-button {
+  background-color: #fdf5cf;
+  border: 2px outset #f6952d;
+  border-radius: 16px; }
+  .contact .submit-button:hover {
+    background-color: #f6952d;
+    border-style: inset; }
 
 .contact-img {
   margin-right: 30px; }
@@ -43,10 +47,14 @@
 .modal-image {
   width: 400px; }
 
-.modal-footer .btn {
-  float: right;
-  border: 1px solid #f6952d; }
-  .modal-footer .btn:hover {
+.modal-footer button {
+  margin-right: 16px;
+  background-color: #fdf5cf;
+  border: 2px outset #f6952d;
+  border-radius: 16px;
+  width: 240px;
+  display: inline; }
+  .modal-footer button:hover {
     background-color: #f6952d;
     border-style: inset; }
 
@@ -66,7 +74,7 @@
   margin-top: -1px; }
 
 .team-member img {
-  width: 20px; }
+  width: 50px; }
 
 .parallax {
   /* The image used */
