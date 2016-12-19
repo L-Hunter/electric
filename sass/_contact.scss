@@ -1,5 +1,6 @@
-$color-scheme-main-color: rgb(246, 149, 45);
-$color-scheme-secondary-color: rgb(253, 245, 207);
+$main-color: rgb(246, 149, 45);
+$secondary-color: rgb(253, 245, 207);
+$heading-color: #009cff;
 
 .textarea {
 	display: block;
@@ -11,7 +12,7 @@ $color-scheme-secondary-color: rgb(253, 245, 207);
 }
 
 .emphasis {
-	color: $color-scheme-main-color;
+	color: $main-color;
 }
 
 .upsize {
@@ -31,20 +32,20 @@ $color-scheme-secondary-color: rgb(253, 245, 207);
 		width: 240px;
 
 		&:focus {
-			background-color: rgb(253, 245, 207);
+			background-color: $secondary-color;
 		}
 	}
 	textarea {
 
 		&:focus {
-			background-color: rgb(253, 245, 207);
+			background-color: $secondary-color;
 		}
 	}
 
 	.submit-button {
 
 		&:hover {
-			background-color: $color-scheme-main-color;
+			background-color: $main-color;
 			border-style: inset;
 
 		}
@@ -55,4 +56,37 @@ $color-scheme-secondary-color: rgb(253, 245, 207);
 
 .contact-img {
 	margin-right: 30px;
+}
+
+.modal-title {
+  color: $main-color;
+  padding: 0;
+  font-size: 26px; }
+
+.modal-header {
+  background-color: $secondary-color;
+}
+
+.modal-message {
+  font-size: 18px;
+}
+
+.modal-image {
+  width: 400px;
+}
+
+.modal-footer {
+	.btn {
+	  float: right;
+	  border: 1px solid $main-color; 
+
+	  &:hover {
+			background-color: $main-color;
+			border-style: inset;
+	  	}
+	}
+}
+
+.emphasis-shoptitle {
+	color: $heading-color;
 }
