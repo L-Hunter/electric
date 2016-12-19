@@ -14,4 +14,9 @@ $(document).ready(function() {
 
   setTimeout(show_modal, 2000);
 
+
+  $('#promocode').click(function(){
+  	$('#promo-message').append("<p>Promo code <span class='emphasis upsize'>SOLSTICE</span> added!</p>")
+  })
+
 });

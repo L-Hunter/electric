@@ -22,6 +22,8 @@
 				<label for="email">Email: </label>
 				<input type="text" name="email"><br>
 
+				<span id="promo-message"></span>
+
 				<label for="message">Message: </label><br>
 				<textarea class="textarea" name="message" placeholder="Your message here!"></textarea><br>
 
@@ -38,22 +40,24 @@
 
 <!-- Begin modal -->
 <div id="promoModal" class="modal fade" role="dialog">
-		<div class="modal-dialog">
-		<!-- Begin content-->
+	<div class="modal-dialog">
+		<!-- Begin modal content-->
 		<div class="modal-content">
  			<div class="modal-header">
    				<button type="button" class="close" data-dismiss="modal">&times;</button>
     			<h4 class="modal-title">Winter Promotion!</h4>
   			</div>
   			<div class="modal-body">
-   				<p class="modal-message">Just in time for winter solstice, <span class="emphasis-shoptitle">Electric Vegan Bakery</span> is offering a <span class="emphasis">10% discount</span> on any holiday cake purchased before December 21st! In your message, make sure to include the code <span class="emphasis upsize">SOLSTICE</span> to get the discount!</p>
+   				<p class="modal-message">Just in time for winter solstice, <span class="emphasis-shoptitle">Electric Vegan Bakery</span> is offering a <span class="emphasis">10% discount</span> on any holiday cake purchased before December 21st!</p>
+   				<p class="modal-message">Click the button below to add the promo code <span class="emphasis upsize">SOLSTICE</span> to your order!</p>
    				<img src="images/peach.jpg" class="modal-image center-block">
  			</div>
  			<div class="modal-footer">
-   				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+   				<button id="promocode" type="button" data-dismiss="modal">Add Promo Code</button>
+   				<button type="button" data-dismiss="modal">Close</button>
 			</div>
 		</div>
-		<!-- End content -->
-		</div>
+		<!-- End modal content -->
+	</div>
 </div> 
 <!-- End modal -->

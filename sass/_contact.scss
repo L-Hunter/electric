@@ -43,6 +43,9 @@ $heading-color: #009cff;
 	}
 
 	.submit-button {
+	  background-color: $secondary-color;
+	  border: 2px outset $main-color; 
+	  border-radius: 16px;
 
 		&:hover {
 			background-color: $main-color;
@@ -76,9 +79,14 @@ $heading-color: #009cff;
 }
 
 .modal-footer {
-	.btn {
-	  float: right;
-	  border: 1px solid $main-color; 
+
+	button {
+	  margin-right: 16px;
+	  background-color: $secondary-color;
+	  border: 2px outset $main-color; 
+	  border-radius: 16px;
+	  width: 240px;
+	  display: inline;
 
 	  &:hover {
 			background-color: $main-color;
