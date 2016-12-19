@@ -5,4 +5,13 @@ $(document).ready(function() {
     pause: true,
     interval: 4000,
   });
+
+  //Make the modal appear after 2 seconds on the page
+
+  function show_modal() {
+  	$('#promoModal').modal();
+  }
+
+  setTimeout(show_modal, 2000);
+
 });

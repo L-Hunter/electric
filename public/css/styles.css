@@ -29,6 +29,30 @@
 .contact-img {
   margin-right: 30px; }
 
+.modal-title {
+  color: #f6952d;
+  padding: 0;
+  font-size: 26px; }
+
+.modal-header {
+  background-color: #fdf5cf; }
+
+.modal-message {
+  font-size: 18px; }
+
+.modal-image {
+  width: 400px; }
+
+.modal-footer .btn {
+  float: right;
+  border: 1px solid #f6952d; }
+  .modal-footer .btn:hover {
+    background-color: #f6952d;
+    border-style: inset; }
+
+.emphasis-shoptitle {
+  color: #009cff; }
+
 .gallery-image {
   padding: 5px; }
 
@@ -186,6 +210,7 @@
 .animate {
   margin-top: 50px; }
   .animate #moving-img {
+    width: 200px;
     animation: move_right 4s infinite; }
 @keyframes move_right {
   0% {
@@ -198,6 +223,10 @@
     transform: translate3d(750px, -30px, 0); }
   100% {
     transform: translate3d(900px, 0, 0); } }
+.thanks-message {
+  font-size: 18px;
+  margin-bottom: 24px; }
+
 .page-heading {
   color: #009cff; }
 
